@@ -11,22 +11,30 @@
     
     
     <item>
-      <title>Speciaal voor Angie</title>
-      <link>hanskoning.com/item/hello/</link>
+      <title>15m2 wit-marmerimitatie op lambrisering.</title>
+      <link>hanskoning.com/item/sint-niclaaskerk-amsterdam/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>hanskoning.com/item/hello/</guid>
-      <description>Hi Angie,
-dit is een titel Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. Donec quis dolor nec nunc mollis interdum vel in purus. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare.</description>
+      <guid>hanskoning.com/item/sint-niclaaskerk-amsterdam/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Testpost</title>
-      <link>hanskoning.com/item/testpost/</link>
+      <title>Marmer imitatie</title>
+      <link>hanskoning.com/item/marmer-imitatie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>hanskoning.com/item/testpost/</guid>
-      <description>content van de testpost dit is leuk</description>
+      <guid>hanskoning.com/item/marmer-imitatie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marmer in kleur</title>
+      <link>hanskoning.com/item/marmer-in-kleur/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>hanskoning.com/item/marmer-in-kleur/</guid>
+      <description></description>
     </item>
     
   </channel>

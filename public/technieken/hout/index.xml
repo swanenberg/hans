@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hout on Hans Koning</title>
+    <title>Houtje on Hans Koning</title>
     <link>hanskoning.com/technieken/hout/</link>
-    <description>Recent content in hout on Hans Koning</description>
+    <description>Recent content in Houtje on Hans Koning</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -11,31 +11,58 @@
     
     
     <item>
-      <title>Speciaal voor Angie</title>
-      <link>hanskoning.com/item/hello/</link>
+      <title>Eiken imitatie</title>
+      <link>hanskoning.com/item/eiken-imitatie-deur/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>hanskoning.com/item/hello/</guid>
-      <description>Hi Angie,
-dit is een titel Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. Donec quis dolor nec nunc mollis interdum vel in purus. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare.</description>
+      <guid>hanskoning.com/item/eiken-imitatie-deur/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Testpost</title>
-      <link>hanskoning.com/item/testpost/</link>
+      <title>Eikenhout imitatie in wording2</title>
+      <link>hanskoning.com/item/eiken-imitatie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>hanskoning.com/item/testpost/</guid>
-      <description>content van de testpost dit is leuk</description>
+      <guid>hanskoning.com/item/eiken-imitatie/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>testpost2</title>
-      <link>hanskoning.com/item/testpost2/</link>
+      <title>Het oude café Karel&#39;s</title>
+      <link>hanskoning.com/item/winkelpui2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>hanskoning.com/item/testpost2/</guid>
-      <description>body text etc</description>
+      <guid>hanskoning.com/item/winkelpui2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interieur luxe jacht</title>
+      <link>hanskoning.com/item/luxe-jacht/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>hanskoning.com/item/luxe-jacht/</guid>
+      <description>titel Dit heb ik gemaakt bla bla
+speciaal</description>
+    </item>
+    
+    <item>
+      <title>Oud hout imitatie </title>
+      <link>hanskoning.com/item/hout-authentieke-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>hanskoning.com/item/hout-authentieke-details/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resultaat Eiken</title>
+      <link>hanskoning.com/item/eiken/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>hanskoning.com/item/eiken/</guid>
+      <description></description>
     </item>
     
   </channel>

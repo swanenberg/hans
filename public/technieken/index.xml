@@ -11,12 +11,32 @@
     
     
     <item>
-      <title>hout</title>
+      <title></title>
+      <link>hanskoning.com/technieken/testtechniek/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>hanskoning.com/technieken/testtechniek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diverse technieken</title>
+      <link>hanskoning.com/technieken/divers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>hanskoning.com/technieken/divers/</guid>
+      <description>Wat content hier. Kom op.
+Waar is de content gebleven?</description>
+    </item>
+    
+    <item>
+      <title>Houtje</title>
       <link>hanskoning.com/technieken/hout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>hanskoning.com/technieken/hout/</guid>
-      <description></description>
+      <description>Ik laat u kennis maken met een aantal ambachtelijke schilderstechnieken waar ik hard op het geoefend
+De technieken worden op de klassieke mannier uitgevoerd met traditionele materialen als o.a. lijnolien, terpentijnolie, mixtion, schellak, bladgoud, verschillende soorten tempera&#39;s en bier als bindmiddel voor losse pigmenten.</description>
     </item>
     
     <item>
@@ -25,7 +45,18 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>hanskoning.com/technieken/marmer/</guid>
-      <description></description>
+      <description>Hier laat ik u kennis maken met een aantal ambachtelijke schilderstechnieken.
+De technieken worden op de klassieke mannier uitgevoerd met traditionele materialen als o.a. lijnolien, terpentijnolie, mixtion, schellak, bladgoud, verschillende soorten tempera&#39;s en bier als bindmiddel voor losse pigmenten.</description>
+    </item>
+    
+    <item>
+      <title>Vergulden</title>
+      <link>hanskoning.com/technieken/vergulden/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>hanskoning.com/technieken/vergulden/</guid>
+      <description>Hier laat ik u kennis maken met een aantal ambachtelijke schilderstechnieken.
+De technieken worden op de klassieke mannier uitgevoerd met traditionele materialen als o.a. lijnolien, terpentijnolie, mixtion, schellak, bladgoud, verschillende soorten tempera&#39;s en bier als bindmiddel voor losse pigmenten.</description>
     </item>
     
   </channel>
