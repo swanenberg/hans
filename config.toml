@@ -1,5 +1,4 @@
-baseURL = "hanskoning.com"
-baseurl = "https://example.com/"
+baseurl = "http://customers.brepi.xyz/hans-koning/"
 enableRobotsTXT = true
 googleAnalytics = ""
 languageCode = "en-us"
