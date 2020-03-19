@@ -1,0 +1,511 @@
+hugover: 0.67.1
+serve:
+  - key: default
+    config: config.toml
+build:
+  - key: default
+    config: config.toml
+collections:
+  - key: items
+    title: Items
+    folder: content/item/
+    extension: md
+    dataformat: toml
+    itemtitle: Item
+    fields:
+      - key: bundle-manager
+        type: bundle-manager
+        path: imgs
+        extensions:
+          - png
+          - jpg
+          - gif
+        fields:
+          - key: thumb
+            title: Thumbnail
+            type: bundle-image-thumbnail
+      - key: title
+        title: Title
+        type: string
+      - key: technieken
+        title: Technieken
+        type: select
+        multiple: true
+        options:
+          - text: marmer
+            value: Marmer
+          - text: hout
+            value: Hout
+          - text: vergulden
+            value: Vergulden
+          - text: divers
+            value: Diverse technieken
+      - key: size
+        title: formaat
+        type: select
+        multiple: false
+        options:
+          - text: breed
+            value: wide
+          - text: hoog
+            value: tall
+          - text: vierkant
+            value: square
+      - key: color
+        title: Kleur
+        type: select
+        multiple: false
+        options:
+          - text: Blauw
+            value: blue
+          - text: Bruin
+            value: brown
+          - text: Creme
+            value: creme
+          - text: Rood
+            value: red
+          - text: Wit
+            value: white
+          - text: Groen
+            value: green
+          - text: Goud
+            value: gold
+      - key: description
+        title: description
+        type: string
+      - key: mainContent
+        title: Content
+        type: markdown
+  - key: technieken
+    title: Technieken
+    folder: content/technieken/
+    extension: md
+    dataformat: toml
+    itemtitle: Techniek
+    fields:
+      - key: bundle-manager
+        type: bundle-manager
+        path: imgs
+        extensions:
+          - png
+          - jpg
+          - gif
+        fields:
+          - key: thumb
+            title: Thumbnail
+            type: bundle-image-thumbnail
+      - key: color
+        title: Kleur
+        type: select
+        multiple: false
+        options:
+          - text: Blauw
+            value: blue
+          - text: Bruin
+            value: brown
+          - text: Creme
+            value: creme
+          - text: Red
+            value: readonly
+          - text: Wit
+            value: White
+          - text: Groen
+            value: green
+          - text: Goud
+            value: gold
+      - key: title
+        title: Title
+        type: string
+      - key: mainContent
+        title: Content
+        type: markdown
+singles:
+  - key: mainConfig
+    title: Main Config
+    file: config.toml
+    fields:
+      - key: title
+        title: Site Title
+        type: string
+        tip: Your page title.
+      - key: baseURL
+        title: Base URL
+        type: string
+        tip: Your site URL.
+      - key: theme
+        title: Theme
+        type: readonly
+        tip: The current theme.
+      - key: languageCode
+        title: Language Code
+        type: readonly
+      - key: googleAnalytics
+        title: Google Analytics
+        type: string
+        tip: Provide a Google Analitics Tracking Code to enable analytics.
+      - key: enableRobotsTXT
+        title: Enable Robots
+        type: boolean
+        default: true
+        tip: 'If you want you page to be indexed, keep this enabled.'
+  - key: index
+    title: Home
+    file: content/home/_index.md
+    dataformat: yaml
+    fields:
+      - key: title
+        title: Site Title
+        type: string
+        tip: Your page title.
+      - key: color
+        title: Kleur
+        type: select
+        multiple: false
+        options:
+          - text: Blauw
+            value: blue
+          - text: Bruin
+            value: brown
+          - text: Creme
+            value: creme
+          - text: Rood
+            value: red
+          - text: Wit
+            value: white
+          - text: Groen
+            value: green
+          - text: Goud
+            value: gold
+      - key: bundle-manager
+        type: bundle-manager
+        path: imgs
+        extensions:
+          - png
+          - jpg
+          - gif
+        fields:
+          - key: thumb
+            title: Thumbnail
+            type: bundle-image-thumbnail
+      - key: mainContent
+        title: Content
+        type: markdown
+  - key: contact
+    title: Contact
+    file: content/contact.md
+    dataformat: yaml
+    fields:
+      - key: title
+        title: Site Title
+        type: string
+        tip: Your page title.
+      - key: color
+        title: Kleur
+        type: select
+        multiple: false
+        options:
+          - text: Blauw
+            value: blue
+          - text: Bruin
+            value: brown
+          - text: Creme
+            value: creme
+          - text: Rood
+            value: red
+          - text: Wit
+            value: white
+          - text: Groen
+            value: green
+          - text: Goud
+            value: gold
+      - key: bundle-manager
+        type: bundle-manager
+        path: imgs
+        extensions:
+          - png
+          - jpg
+          - gif
+        fields:
+          - key: thumb
+            title: Thumbnail
+            type: bundle-image-thumbnail
+      - key: mainContent
+        title: Content
+        type: markdown
+
+
+# hugover = "0.64.0"
+#
+# [[serve]]
+# key = "default"
+# config = "config.toml"
+#
+# [[build]]
+# key = "default"
+# config = "config.toml"
+#
+# [[collections]]
+# key = "items"
+# title = "Items"
+# folder = "content/item/"
+# extension = "md"
+# dataformat = "toml"
+# itemtitle = "Item"
+#
+# [[collections.fields]]
+#   key = "bundle-manager"
+#   type = "bundle-manager"
+#   path = "imgs"
+#   extensions = [
+#    "png",
+#    "jpg",
+#    "gif"
+#   ]
+#   [[collections.fields.fields]]
+#   key = "thumb"
+#   title = "Thumbnail"
+#   type = "bundle-image-thumbnail"
+#
+#   [[collections.fields]]
+#   key = "title"
+#   title = "Title"
+#   type = "string"
+#
+#   [[collections.fields]]
+#   key = "technieken"
+#   title = "Technieken"
+#   type = "select"
+#   multiple = true
+#   options = [
+#       { text = "marmer" , value = "Marmer"},
+#       { text = "hout" , value = "Hout"},
+#       { text = "vergulden" , value = "Vergulden"},
+#       { text = "divers" , value = "Diverse technieken" }
+#   ]
+#
+#   [[collections.fields]]
+#   key = "size"
+#   title = "formaat"
+#   type = "select"
+#   multiple = false
+#   options = [
+#       { text = "breed" , value = "wide"},
+#       { text = "hoog" , value = "tall"},
+#       { text = "vierkant" , value = "square"},
+#   ]
+#
+#   [[collections.fields]]
+#   key = "color"
+#   title = "Kleur"
+#   type = "select"
+#   multiple = false
+#   options = [
+#       { text = "Blauw" , value = "blue"},
+#       { text = "Bruin" , value = "brown"},
+#       { text = "Creme" , value = "creme"},
+#       { text = "Rood" , value = "red"},
+#       { text = "Wit" , value = "white"},
+#       { text = "Groen" , value = "green"},
+#       { text = "Goud" , value = "gold"},
+#   ]
+#
+#   [[collections.fields]]
+#   key = "description"
+#   title = "description"
+#   type = "string"
+#
+#   [[collections.fields]]
+#   key = "mainContent"
+#   title = "Content"
+#   type = "markdown"
+#
+#
+# # Technieken collections
+#
+#   [[collections]]
+#   key = "technieken"
+#   title = "Technieken"
+#   folder = "content/technieken/"
+#   extension = "md"
+#   dataformat = "toml"
+#   itemtitle = "Techniek"
+#
+#   [[collections.fields]]
+#     key = "bundle-manager"
+#     type = "bundle-manager"
+#     path = "imgs"
+#     extensions = [
+#      "png",
+#      "jpg",
+#      "gif"
+#     ]
+#     [[collections.fields.fields]]
+#     key = "thumb"
+#     title = "Thumbnail"
+#     type = "bundle-image-thumbnail"
+#
+#     [[collections.fields]]
+#     key = "color"
+#     title = "Kleur"
+#     type = "select"
+#     multiple = false
+#     options = [
+#         { text = "Blauw" , value = "blue"},
+#         { text = "Bruin" , value = "brown"},
+#         { text = "Creme" , value = "creme"},
+#         { text = "Red" , value = "readonly"},
+#         { text = "Wit" , value = "White"},
+#         { text = "Groen" , value = "green"},
+#         { text = "Goud" , value = "gold"},
+#     ]
+#
+#     [[collections.fields]]
+#     key = "title"
+#     title = "Title"
+#     type = "string"
+#
+#     [[collections.fields]]
+#     key = "mainContent"
+#     title = "Content"
+#     type = "markdown"
+#
+# # singles
+#
+# [[singles]]
+# key = "mainConfig"
+# title = "Main Config"
+# file = "config.toml"
+#
+#   [[singles.fields]]
+#   key = "title"
+#   title = "Site Title"
+#   type = "string"
+#   tip = "Your page title."
+#
+#   [[singles.fields]]
+#   key = "baseURL"
+#   title = "Base URL"
+#   type = "string"
+#   tip = "Your site URL."
+#
+#   [[singles.fields]]
+#   key = "theme"
+#   title = "Theme"
+#   type = "readonly"
+#   tip = "The current theme."
+#
+#   [[singles.fields]]
+#   key = "languageCode"
+#   title = "Language Code"
+#   type = "readonly"
+#
+#   [[singles.fields]]
+#   key = "googleAnalytics"
+#   title = "Google Analytics"
+#   type = "string"
+#   tip = "Provide a Google Analitics Tracking Code to enable analytics."
+#
+#   [[singles.fields]]
+#   key = "enableRobotsTXT"
+#   title = "Enable Robots"
+#   type = "boolean"
+#   default = true
+#   tip = "If you want you page to be indexed, keep this enabled."
+#
+# # home
+#   [[singles]]
+#     key = "index"
+#     title = "Home"
+#     file = "content/home/_index.md"
+#     dataformat = "yaml"
+#
+#       [[singles.fields]]
+#       key = "title"
+#       title = "Site Title"
+#       type = "string"
+#       tip = "Your page title."
+#
+#       [[singles.fields]]
+#       key = "color"
+#       title = "Kleur"
+#       type = "select"
+#       multiple = false
+#       options = [
+#           { text = "Blauw" , value = "blue"},
+#           { text = "Bruin" , value = "brown"},
+#           { text = "Creme" , value = "creme"},
+#           { text = "Rood" , value = "red"},
+#           { text = "Wit" , value = "white"},
+#           { text = "Groen" , value = "green"},
+#           { text = "Goud" , value = "gold"},
+#       ]
+#
+#       [[singles.fields]]
+#         key = "bundle-manager"
+#         type = "bundle-manager"
+#         path = "imgs"
+#         extensions = [
+#          "png",
+#          "jpg",
+#          "gif"
+#         ]
+#         [[singles.fields.fields]]
+#         key = "thumb"
+#         title = "Thumbnail"
+#         type = "bundle-image-thumbnail"
+#
+#
+#       [[singles.fields]]
+#       key = "mainContent"
+#       title = "Content"
+#       type = "markdown"
+#
+#
+# # contact me
+#       [[singles]]
+#         key = "contact"
+#         title = "Contact"
+#         file = "content/contact.md"
+#         dataformat = "yaml"
+#
+#           [[singles.fields]]
+#           key = "title"
+#           title = "Site Title"
+#           type = "string"
+#           tip = "Your page title."
+#
+#           [[singles.fields]]
+#           key = "color"
+#           title = "Kleur"
+#           type = "select"
+#           multiple = false
+#           options = [
+#               { text = "Blauw" , value = "blue"},
+#               { text = "Bruin" , value = "brown"},
+#               { text = "Creme" , value = "creme"},
+#               { text = "Rood" , value = "red"},
+#               { text = "Wit" , value = "white"},
+#               { text = "Groen" , value = "green"},
+#               { text = "Goud" , value = "gold"},
+#           ]
+#
+#           [[singles.fields]]
+#             key = "bundle-manager"
+#             type = "bundle-manager"
+#             path = "imgs"
+#             extensions = [
+#              "png",
+#              "jpg",
+#              "gif"
+#             ]
+#
+#             [[singles.fields.fields]]
+#             key = "thumb"
+#             title = "Thumbnail"
+#             type = "bundle-image-thumbnail"
+#
+#
+#           [[singles.fields]]
+#           key = "mainContent"
+#           title = "Content"
+#           type = "markdown"
