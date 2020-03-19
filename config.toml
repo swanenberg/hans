@@ -1,5 +1,5 @@
 baseurl = "http://customers.brepi.xyz/hans-koning/"
-enableRobotsTXT = true
+enableRobotsTXT = false
 googleAnalytics = ""
 languageCode = "en-us"
 paginate = 10.0
